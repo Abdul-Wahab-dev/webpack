@@ -71,23 +71,26 @@
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony export (immutable) */ exports["a"] = sum;
 
-function sum(a , b){
 
-    return a+b
-}
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var sum = exports.sum = function sum(a, b) {
+
+    return a + b;
+};
 
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sum__ = __webpack_require__(0);
 
 
-console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__sum__["a" /* sum */])(2,3))
+var _sum = __webpack_require__(0);
+
+console.log((0, _sum.sum)(2, 3));
 
 /***/ }
 /******/ ]);
